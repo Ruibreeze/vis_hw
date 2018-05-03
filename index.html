@@ -13,7 +13,7 @@
 
 </head>
 <body>
-<div id="ui"></div>
+<div id="cz"></div>
 <div id="vis"></div>
 <script type="text/babel">
     class AppSelectingForm extends React.Component {
@@ -39,7 +39,7 @@
             return (
                 <form onSubmit={this.handleSubmit}>
                     <label>
-                        Zip Code &nbsp;
+                        ZipCode;
                         <input type="text" value={this.state.value} onChange={this.handleChange} />
                     </label>
                     <input type="submit" value="update" />
